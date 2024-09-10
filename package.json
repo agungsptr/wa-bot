@@ -3,14 +3,13 @@
   "module": "src/app.ts",
   "type": "module",
   "scripts": {
-    "start": "bun --hot src/app.ts"
+    "dev": "nodemon src/app.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest",
-    "@types/qrcode-terminal": "^0.12.2"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+    "@types/qrcode-terminal": "^0.12.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "qrcode-terminal": "^0.12.0",
