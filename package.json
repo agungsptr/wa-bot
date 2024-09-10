@@ -1,0 +1,19 @@
+{
+  "name": "wa-bot",
+  "module": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun --hot src/app.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/qrcode-terminal": "^0.12.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.25.0"
+  }
+}
