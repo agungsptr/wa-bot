@@ -8,7 +8,7 @@ function main() {
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
     },
     authStrategy: new LocalAuth({
-      dataPath: `${__dirname}/session`,
+      dataPath: `${__dirname}/../session`,
     }),
   });
 
